@@ -12,7 +12,7 @@
 
     Private Sub GolfShoes_CheckedChanged(sender As Object, e As EventArgs) Handles GolfShoes.CheckedChanged
         If GolfShoes.Checked = True Then
-            shoes = 23
+            shoes = 149
         Else
             shoes = 0
         End If
