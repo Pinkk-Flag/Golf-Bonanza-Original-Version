@@ -1,5 +1,5 @@
 ﻿Public Class Form6
-    Public costv4 As Single = ExtrasForm_4.costv3 * ExtrasForm_4.quantscroll.Value
+    Public costv4 As Single = (ExtrasForm_4.costv3 * ExtrasForm_4.quantscroll.Value) * ExtrasForm_4.discount
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
         Form1.Show()

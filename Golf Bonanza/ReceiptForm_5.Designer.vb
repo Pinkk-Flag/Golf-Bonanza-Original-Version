@@ -26,6 +26,7 @@ Partial Class ReceiptForm_5
         Me.txtOut = New System.Windows.Forms.TextBox()
         Me.lblTotalMessage = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -42,17 +43,17 @@ Partial Class ReceiptForm_5
         'txtOut
         '
         Me.txtOut.Font = New System.Drawing.Font("Yu Gothic", 28.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.txtOut.Location = New System.Drawing.Point(106, 140)
+        Me.txtOut.Location = New System.Drawing.Point(98, 148)
         Me.txtOut.Multiline = True
         Me.txtOut.Name = "txtOut"
-        Me.txtOut.Size = New System.Drawing.Size(564, 133)
+        Me.txtOut.Size = New System.Drawing.Size(564, 129)
         Me.txtOut.TabIndex = 1
         '
         'lblTotalMessage
         '
         Me.lblTotalMessage.AutoSize = True
         Me.lblTotalMessage.Font = New System.Drawing.Font("Yu Gothic", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblTotalMessage.Location = New System.Drawing.Point(106, 65)
+        Me.lblTotalMessage.Location = New System.Drawing.Point(98, 73)
         Me.lblTotalMessage.Name = "lblTotalMessage"
         Me.lblTotalMessage.Size = New System.Drawing.Size(564, 72)
         Me.lblTotalMessage.TabIndex = 2
@@ -67,11 +68,22 @@ Partial Class ReceiptForm_5
         Me.Button1.Text = "README + Credits"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Yu Gothic", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(98, 280)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(564, 72)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Your Total Comes to:"
+        '
         'ReceiptForm_5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblTotalMessage)
         Me.Controls.Add(Me.txtOut)
@@ -88,4 +100,6 @@ Partial Class ReceiptForm_5
     Friend WithEvents txtOut As TextBox
     Friend WithEvents lblTotalMessage As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Label1 As Label
 End Class
