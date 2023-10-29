@@ -32,14 +32,14 @@ Partial Class Form1
         Me.txtOutNameForm1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.radioNT = New System.Windows.Forms.RadioButton()
+        Me.radioACT = New System.Windows.Forms.RadioButton()
+        Me.radioQueensland = New System.Windows.Forms.RadioButton()
+        Me.radioTasmania = New System.Windows.Forms.RadioButton()
+        Me.radioSA = New System.Windows.Forms.RadioButton()
+        Me.radioNSW = New System.Windows.Forms.RadioButton()
+        Me.radioWA = New System.Windows.Forms.RadioButton()
+        Me.radioVictoria = New System.Windows.Forms.RadioButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtOutPostCode = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -143,14 +143,14 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton8)
-        Me.GroupBox1.Controls.Add(Me.RadioButton7)
-        Me.GroupBox1.Controls.Add(Me.RadioButton6)
-        Me.GroupBox1.Controls.Add(Me.RadioButton5)
-        Me.GroupBox1.Controls.Add(Me.RadioButton4)
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.radioNT)
+        Me.GroupBox1.Controls.Add(Me.radioACT)
+        Me.GroupBox1.Controls.Add(Me.radioQueensland)
+        Me.GroupBox1.Controls.Add(Me.radioTasmania)
+        Me.GroupBox1.Controls.Add(Me.radioSA)
+        Me.GroupBox1.Controls.Add(Me.radioNSW)
+        Me.GroupBox1.Controls.Add(Me.radioWA)
+        Me.GroupBox1.Controls.Add(Me.radioVictoria)
         Me.GroupBox1.Font = New System.Drawing.Font("Yu Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox1.Location = New System.Drawing.Point(214, 373)
         Me.GroupBox1.Name = "GroupBox1"
@@ -159,101 +159,101 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Please enter your state or territory:"
         '
-        'RadioButton8
+        'radioNT
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton8.Location = New System.Drawing.Point(173, 125)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(168, 25)
-        Me.RadioButton8.TabIndex = 11
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "Northern Territory"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.radioNT.AutoSize = True
+        Me.radioNT.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioNT.Location = New System.Drawing.Point(173, 125)
+        Me.radioNT.Name = "radioNT"
+        Me.radioNT.Size = New System.Drawing.Size(168, 25)
+        Me.radioNT.TabIndex = 11
+        Me.radioNT.TabStop = True
+        Me.radioNT.Text = "Northern Territory"
+        Me.radioNT.UseVisualStyleBackColor = True
         '
-        'RadioButton7
+        'radioACT
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton7.Location = New System.Drawing.Point(173, 92)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(76, 25)
-        Me.RadioButton7.TabIndex = 10
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "A.C.T."
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.radioACT.AutoSize = True
+        Me.radioACT.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioACT.Location = New System.Drawing.Point(173, 92)
+        Me.radioACT.Name = "radioACT"
+        Me.radioACT.Size = New System.Drawing.Size(76, 25)
+        Me.radioACT.TabIndex = 10
+        Me.radioACT.TabStop = True
+        Me.radioACT.Text = "A.C.T."
+        Me.radioACT.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'radioQueensland
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton6.Location = New System.Drawing.Point(173, 59)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(122, 25)
-        Me.RadioButton6.TabIndex = 9
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Queensland"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.radioQueensland.AutoSize = True
+        Me.radioQueensland.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioQueensland.Location = New System.Drawing.Point(173, 59)
+        Me.radioQueensland.Name = "radioQueensland"
+        Me.radioQueensland.Size = New System.Drawing.Size(122, 25)
+        Me.radioQueensland.TabIndex = 9
+        Me.radioQueensland.TabStop = True
+        Me.radioQueensland.Text = "Queensland"
+        Me.radioQueensland.UseVisualStyleBackColor = True
         '
-        'RadioButton5
+        'radioTasmania
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton5.Location = New System.Drawing.Point(173, 26)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(105, 25)
-        Me.RadioButton5.TabIndex = 8
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Tasmania"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.radioTasmania.AutoSize = True
+        Me.radioTasmania.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioTasmania.Location = New System.Drawing.Point(173, 26)
+        Me.radioTasmania.Name = "radioTasmania"
+        Me.radioTasmania.Size = New System.Drawing.Size(105, 25)
+        Me.radioTasmania.TabIndex = 8
+        Me.radioTasmania.TabStop = True
+        Me.radioTasmania.Text = "Tasmania"
+        Me.radioTasmania.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'radioSA
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 125)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(148, 25)
-        Me.RadioButton4.TabIndex = 3
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "South Australia"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.radioSA.AutoSize = True
+        Me.radioSA.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioSA.Location = New System.Drawing.Point(6, 125)
+        Me.radioSA.Name = "radioSA"
+        Me.radioSA.Size = New System.Drawing.Size(148, 25)
+        Me.radioSA.TabIndex = 3
+        Me.radioSA.TabStop = True
+        Me.radioSA.Text = "South Australia"
+        Me.radioSA.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'radioNSW
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 92)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(165, 25)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "New South Wales"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.radioNSW.AutoSize = True
+        Me.radioNSW.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioNSW.Location = New System.Drawing.Point(6, 92)
+        Me.radioNSW.Name = "radioNSW"
+        Me.radioNSW.Size = New System.Drawing.Size(165, 25)
+        Me.radioNSW.TabIndex = 2
+        Me.radioNSW.TabStop = True
+        Me.radioNSW.Text = "New South Wales"
+        Me.radioNSW.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'radioWA
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 59)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(166, 25)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Western Australia"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.radioWA.AutoSize = True
+        Me.radioWA.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioWA.Location = New System.Drawing.Point(6, 59)
+        Me.radioWA.Name = "radioWA"
+        Me.radioWA.Size = New System.Drawing.Size(166, 25)
+        Me.radioWA.TabIndex = 1
+        Me.radioWA.TabStop = True
+        Me.radioWA.Text = "Western Australia"
+        Me.radioWA.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'radioVictoria
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 26)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(91, 25)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Victoria"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.radioVictoria.AutoSize = True
+        Me.radioVictoria.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.radioVictoria.Location = New System.Drawing.Point(6, 26)
+        Me.radioVictoria.Name = "radioVictoria"
+        Me.radioVictoria.Size = New System.Drawing.Size(91, 25)
+        Me.radioVictoria.TabIndex = 0
+        Me.radioVictoria.TabStop = True
+        Me.radioVictoria.Text = "Victoria"
+        Me.radioVictoria.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -392,14 +392,14 @@ Partial Class Form1
     Friend WithEvents txtOutNameForm1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents RadioButton7 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents radioNT As RadioButton
+    Friend WithEvents radioACT As RadioButton
+    Friend WithEvents radioQueensland As RadioButton
+    Friend WithEvents radioTasmania As RadioButton
+    Friend WithEvents radioSA As RadioButton
+    Friend WithEvents radioNSW As RadioButton
+    Friend WithEvents radioWA As RadioButton
+    Friend WithEvents radioVictoria As RadioButton
     Friend WithEvents Label3 As Label
     Friend WithEvents txtOutPostCode As TextBox
     Friend WithEvents Label4 As Label
